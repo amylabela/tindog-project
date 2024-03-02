@@ -1,0 +1,47 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title-h1 {
+  font-size: 3rem;
+}
+
+.pricing-card-title {
+  font-size: 2rem;
+}
+
+#dog-image {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+}
+
+#dog-caption {
+  font-size: 1.5em;
+  font-family:'Courier New', Courier, monospace;
+}
